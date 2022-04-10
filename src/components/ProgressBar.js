@@ -4,15 +4,15 @@ import Button from "./Button";
 
 export default function ProgressBar() {
   return (
-    <div class={classes.progressBar}>
-      <div class={classes.backButton}>
-        <span class="material-icons-outlined"> arrow_back </span>
+    <div className={classes.progressBar}>
+      <div className={classes.backButton}>
+        <span className="material-icons-outlined"> arrow_back </span>
       </div>
-      <div class={classes.rangeArea}>
-        <div class={classes.tooltip}>24% Cimplete!</div>
-        <div class={classes.rangeBody}>
-          <div class={classes.progress}></div>
-          <div class={classes.progress} style={{ width: `20%` }}></div>
+      <div className={classes.rangeArea}>
+        <div className={classes.tooltip}>24% Cimplete!</div>
+        <div className={classes.rangeBody}>
+          <div className={classes.progress}></div>
+          <div className={classes.progress} style={{ width: `20%` }}></div>
         </div>
       </div>
       <Link to="/result">
